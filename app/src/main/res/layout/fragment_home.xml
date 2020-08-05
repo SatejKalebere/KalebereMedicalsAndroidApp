@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EFEFEF"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+    <HorizontalScrollView
+
+        android:id="@+id/horizontal_scrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+
+                android:scaleType="fitStart"
+                android:src="@drawable/image_1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+
+                android:scaleType="fitStart"
+                android:src="@drawable/image_3" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+
+                android:scaleType="fitStart"
+                android:src="@drawable/image_4" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+
+                android:scaleType="fitStart"
+                android:src="@drawable/image_5" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+
+                android:scaleType="fitStart"
+                android:src="@drawable/image_21" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:textSize="16sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+
+            android:background="@drawable/mystyle"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:text="Don't forget to call us\nin medical emergencies!"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:layout_margin="7dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+
+
+        <TextView
+            android:textSize="16sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/mystyle"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:text="Pharmacist- Tejas Sanjay Kalebere"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+
+
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="7dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#9FF4E6"
+            android:background="@drawable/mystyle"
+            android:text="Phone- 8308365608, 8459915500.\nAddr- Opposite Varne Corner,\nMain Road, Radhanagari.\nTal- Radhanagari, Dist- Kolhapur.\nMaharashtra, India.\nPIN- 416212."
+            android:textStyle="italic"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+           android:text="@string/designed_developed_by"
+           android:paddingTop="16dp"
+           android:textStyle="bold"
+          android:textColor="#FFFFFF"
+            android:textSize="18sp"
+           android:textAlignment="center"/>
+
+         </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_gravity="center_horizontal"
+
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mystyle_white"
+                android:text="Satej Kalebere"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="satejkalebere@gmail.com"
+                
+                android:paddingTop="5dp"
+                android:paddingBottom="15dp"
+
+                android:textStyle="italic"
+                android:textColor="#9FF4E6"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+</ScrollView>

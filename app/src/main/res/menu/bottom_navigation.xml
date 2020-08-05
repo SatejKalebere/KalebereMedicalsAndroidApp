@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/nav_call"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="Call Us"
+        />
+    <item
+        android:id="@+id/nav_location"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Locate Us"
+        />
+    <item
+        android:id="@+id/nav_whatsapp"
+        android:icon="@drawable/ic_icons8_whatsap"
+        android:title="WhatsApp"/>
+    <item
+        android:id="@+id/nav_payment"
+        android:icon="@drawable/ic_rupee"
+        android:title="Pay Money"/>
+
+
+
+</menu>

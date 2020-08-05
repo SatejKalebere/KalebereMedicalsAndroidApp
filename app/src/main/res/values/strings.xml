@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kalebere Medicals</string>
+    <string name="call_us">Call Us</string>
+    <string name="locate_us">LOCATE US</string>
+    <string name="thanks_for_calling_us">Thanks For Calling Us!</string>
+    <string name="about">About</string>
+    <string name="designed_developed_by"><![CDATA[Designed & Developed By]]></string>
+</resources>
